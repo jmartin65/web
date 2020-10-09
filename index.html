@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Website</title>
+</head>
+<body>
+    <header>
+        <div class="brand"> 
+            <a href="#">JM</a>      
+        </div>
+        <ul class="nav-links">
+            <li class="nav-link">
+                <a href="#">home</a>
+            </li>
+            <li class="nav-link">
+                <a href="#about">About</a>
+            </li>
+            <li class="nav-link">
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+
+    <section id="hero">
+        <div class="inner-text">
+            <h1>John A Martin</h1>
+             <h2>Evangelist, Web Designer</h2>
+            
+        </div>
+
+    </section>
+
+    <section class="nav section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h3 class="heading">About Me</h3>
+                <h4 class="subheading">Nice to meet you</h4>
+             </div>
+
+             <div class="about-content">
+                 <div class="image-wrapper">
+                     <img src="Me.JPG" alt="John">
+              </div>
+              <div class="text-content">
+                  <h3 class="content-heading">
+                      John A Martin (THUNDER), Evangelist
+                  </h3>
+                  <p>
+                      I am an International Evangelist, having conducted Evangelistic Seminars in several countries. I studied Theology At Northern Caribbean University In Beautiful Jamaica and taught High School for a while. At the moment I am looking forward to my retirement
+                  </p>
+                  <hr />
+
+              </div>   
+                 
+             </div>
+            
+        </div>
+        
+    </section>
+    <section id="contact">
+  
+        <div class="contain">
+            <h1>Contact</h1>
+            <form name="htmlform" method="post" action="toyousender.php">
+            
+            <input type="text" name="first_name" placeholder="NAME" required>
+            
+            <input  type="email" name="email" placeholder="MAIL" required>
+            
+            <textarea name="comments" placeholder="MESSAGE" required ></textarea>
+            
+            <button name="send" type="" class="submit">SEND</button>
+            </form>
+        </div>
+    </section>      
+
+
+</body>
+</html>
